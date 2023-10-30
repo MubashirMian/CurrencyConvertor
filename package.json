@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "inquirer": "^5.2.0",
+    "type":"module"
+  },
+  
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  },
+  "bin": {
+    "currency-convertor": "main.ts"
+  },
+  "name": "currency-convertor",
+  "version": "1.0.1",
+  "description": "use for curency exchange,can be  easily modified for any other currnecy",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "currency",
+    "convertor",
+    "currency",
+    "exchange"
+  ],
+  "author": "mubashir_mian",
+  "license": "ISC"
+}
